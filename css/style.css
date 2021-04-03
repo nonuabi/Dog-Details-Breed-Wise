@@ -30,3 +30,27 @@ body {
   font-family: system-ui;
   background-color: whitesmoke;
 }
+
+/* image container */
+#image-btn-container {
+  width: auto;
+  height: auto;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#image-subcontainer {
+  width: 50%;
+  height: 550px;
+}
+
+#next-image {
+  width: 13%;
+  height: 50px;
+  color: deepskyblue;
+  font-size: xx-large;
+  font-family: monospace;
+  background: white;
+}
