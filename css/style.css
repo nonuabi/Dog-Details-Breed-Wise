@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+#choose-btn-container {
+  background-color: aliceblue;
+  width: auto;
+  height: 170px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#breed-wise-drop-down-list {
+  width: 25%;
+  height: 30%;
+  font-size: xx-large;
+  font-family: monospace;
+  text-transform: capitalize;
+}
+#get-image-btn {
+  width: 12%;
+  height: 30%;
+  font-size: initial;
+  font-family: system-ui;
+  background-color: whitesmoke;
+}
